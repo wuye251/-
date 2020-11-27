@@ -10,22 +10,25 @@
 	全部删除：按esc后，然后dG
 	跳转到第一行: gg
 	跳转到最后一行: shift+g
-
+- wget downurl 安装软件
 # git  
 -  删除远端分支   git push origin --delete originBranch
 -  删除本地分支   git branch -d Branch
+-  fetch的含义
+ 
 
 # php
 - usort(a, fucntion(a,b){
 	return 1 #交换a b 
 	return -1#不交换 a b
 })
+- is_numm和empty的区别
+- arr = array_flip(array);
+- 字符串替换str_replace strtr
 
 
-
-
-
-
+# mysql
+- 分区、分表(水平分割、垂直分割)
 
 
 
@@ -45,20 +48,17 @@ rsync -av --chown=root:root eduinterface/bin/eduMysqlServer root@192.168.0.32:/d
 ssh root@192.168.0.32 /data/service_hcloud/eduMysql/start.sh restart
 
 
-2.在sim服务器查线上log
+-  在sim服务器查线上log
 
 目录 /srv
 
 搜索脚本grepLog.sh，后面跟着查找内容、查找路径。
 
 示例：./grepLog.sh getPaveMainById.*61.66 /data/web/hcloud//web/log/interface/20200902.log
+-  重启nginx   sudo /usr/local/openresty/nginx/sbin/nginx -s reload
 
-
-3. 重启nginx   sudo /usr/local/openresty/nginx/sbin/nginx -s reload
-
-4.sit - solr  ---- 1> mstsc 
+-  sit - solr  ---- 1> mstsc 
 				   2> 121.36.46.191
-
 
 
 
