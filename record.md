@@ -47,7 +47,6 @@
     2. 对应项目下用npm下载对应包npm install xxx.js
     3. 然后在resoureces/js/app.js require包含上在node_modules对应路径下下载的包中的js文件
 	4. 合并压缩js
->>>>>>> e9a6a74592e9da4d40bfbc801b62ea83dbd970cf
 
 - 生成迁移文件
     1. php artisan make:migration create_table_note
